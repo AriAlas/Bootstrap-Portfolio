@@ -1,0 +1,122 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+body {
+    background: #FFDCEF;
+}
+
+.jumbo {
+    background: #B24280;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+
+
+}
+ul {
+    padding: 10px 0;
+}
+
+
+
+.logo {
+    text-decoration: none;
+    display: inline;
+    padding-top: 55px;
+    color: black;
+   
+}
+
+.logo:hover {
+        text-decoration: none;
+        color: #FFDCEF;
+    
+}
+.nav a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+.nav a:hover {
+    text-decoration: none;
+    color: #B24280;
+    text-transform: uppercase;
+}
+
+
+.ArielAlas{
+    transform: rotate(270deg);
+    border-radius: 50px;
+    
+
+}
+h2 {
+    padding-bottom: 30px;
+}
+.main-footer {
+        background: #B24280;
+        border-top: 8px solid #FFDCEF;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+}
+.push {
+    height: 50px;
+
+}
+
+.center {
+    text-align: center;
+}
+
+form {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.container {
+    padding-bottom: 70px;
+}
+h1 {
+    display: inline;
+}
+
+
+/*Media query*/
+
+@media screen and (max-width: 767px) {
+    .col-md-9 p {
+        margin-top: 75px;
+    }
+
+    .img-fluid {
+        margin-bottom: 20px;
+    }
+    .nav {
+        margin-bottom: 20px;
+    }
+}
+
+/***Animation***/
+@keyframes drop {
+   from {
+       margin-top: 0;
+   }
+   to {
+       margin-top: 64px;
+   }
+}
+
+.first,
+.second {
+    animation-name: drop;
+    animation-duration: 4s;
+}
+
