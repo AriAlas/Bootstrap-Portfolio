@@ -88,6 +88,16 @@ h1 {
     display: inline;
 }
 
+.hangman {
+    position: relative;
+}
+#hangmantext{
+    
+    position: absolute;
+    bottom: -20px;
+    left: 25%;
+}
+
 
 /*Media query*/
 
@@ -102,6 +112,11 @@ h1 {
     .nav {
         margin-bottom: 20px;
     }
+    #hangmantext {
+        bottom: 0;
+        left: 20%;
+    }
+
 }
 
 /***Animation***/
